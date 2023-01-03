@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(20, 20, 20);
+    height: 300px;
+}
+.fstlne{
+    display: flex;
+}
+.btn{
+    width: 145px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0.5px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+}
+header img{
+    height: 90px;
+    margin: 25px ;
+}
+header p{
+    color: white;
+    padding-top: 75px;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.alltxt{
+    display: grid;
+    justify-content: center;
+}
+.text, .rescue{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.text h2, .rescue h3{
+    font-weight: bolder;
+}
+.text p, .rescue p{
+    margin-top: 20px;
+    width: 365px;
+    line-height: 1.5;
+    font-size: large;
+}
+/* .reveal{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+}
+.reveal span{
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 30px;
+    display: block;
+    transform: translateX(100%);
+    animation: move 15s linear infinite;
+    animation-delay: 5s;
+}
+@keyframes move{
+        to {transform: translateX(-100%);}
+    } */
+.support{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.support img{
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    height: 170px;
+}
+.support hr{
+    color: rgb(190, 190, 190);
+    width: 290px;
+    margin: auto; 
+}
+.raised, .target, .days{
+    text-align: center;
+}
+.raised h3, .target h3, .days h3{
+    padding-top: 15px;
+}
+.raised p, .target p, .days p{
+    margin-top: -0.5px;
+    margin-bottom: 10px;
+    font-size: medium;
+    color: grey;
+}
+
+.jutce img{
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    height: 230px;
+}
+.payent{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.payent h1{
+ font-size: xx-large;
+ font-weight: bolder;
+}
+
+.crt p{
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.crt img{
+    width: 300px;
+}
+.hrr{
+    margin-top: 50px;
+   
+}
+.hrr hr{
+     margin-bottom: 20px;
+     width: 90%;
+     margin: auto;
+     
+}
+.hrr h3{
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.assit{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.assit div{
+    margin-top: 20px;
+    width: 365px;
+    line-height: 1.5;
+    font-size: large;
+}
+.fnldv{
+    height: 500px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.4;
+}
+
+.fnldv div{
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.fnldv h3{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.fnldv p{
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+}
+.fnldv img{
+    height: 150px;
+}
+@media (min-width: 483px) {
+    .btn{
+        margin-left: 120px;
+    }   
+    .text h2{
+        font-size: xx-large;
+    }
+    .text p, .rescue p{
+        font-size: larger;
+    }
+    
+}
+@media (min-width: 650px){
+    .btn{
+        margin-left: 220px;
+    }  
+      .rescue h3{
+        width: 500px;
+        margin-top: 20px;
+      }
+      .assit{
+        display: grid;
+        justify-content: center;
+      }
+      .assit div{
+        padding-top: 25px;
+        margin: 0 auto;
+      }
+    
+    }
+    @media (min-width: 650px){
+        .assit{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    @media (min-width: 879px){
+        .btn{
+            margin-left: 450px;
+        }
+        .alltxt{
+            display: flex;
+            flex-direction: row;
+        }
+        header img{
+            height: 100px;
+            margin-left: 40px;
+        }
+        header p{
+            margin-left: 40px;
+        }
+    }
+    @media (max-width: 905px){
+        .fnldv h3{
+            font-size: x-large;
+        }
+    }
+    @media (max-width: 710px){
+        .fnldv{
+            flex-direction: column;
+            height: max-content;
+        }
+        .fnldv div{
+            margin-top: -90px;
+        }
+    }
