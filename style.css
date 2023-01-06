@@ -19,6 +19,7 @@ header{
     background-color: transparent;
     color: white;
     border-radius: 30px;
+    cursor: pointer;
 }
 header img{
     height: 90px;
