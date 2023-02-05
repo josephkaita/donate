@@ -7,6 +7,7 @@
 header{
     background-color: rgb(20, 20, 20);
     height: 300px;
+    width: 100%;
 }
 .fstlne{
     display: flex;
@@ -148,12 +149,12 @@ header p{
 }
 .assit{
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-bottom: 50px;
 }
 .assit div{
     margin-top: 20px;
-    width: 365px;
+    width: 100%;
     line-height: 1.5;
     font-size: large;
 }
@@ -246,5 +247,19 @@ header p{
         }
         .fnldv div{
             margin-top: -90px;
+        }
+    }
+    @media (min-width: 365px){
+        .assit div{
+            margin-top: 20px;
+            width: 360px;
+            font-size: medium;
+        }
+        .assit{
+            margin-top: 20px;
+            width: 360px;
+        }
+        .alltxt{
+            padding-left: 5px;
         }
     }
